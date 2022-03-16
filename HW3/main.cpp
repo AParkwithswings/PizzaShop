@@ -13,17 +13,17 @@ int main()
     Pizza pizza7("small", "deep dish", 0, 0);
 
     pizza1.outputDescription();
-    cout << "Price of pizza1: " << pizza1.computePrice() << "\n";
+    printf ("Price of pizza1: %.2f\n", pizza1.computePrice());
     pizza2.outputDescription();
-    cout << "Price of pizza2: " << pizza2.computePrice() << "\n";
+    printf ("Price of pizza2: %.2f\n", pizza2.computePrice());
     pizza3.outputDescription();
-    cout << "Price of pizza3: " << pizza3.computePrice() << "\n";
+    printf ("Price of pizza3: %.2f\n", pizza3.computePrice());
     pizza4.outputDescription();
-    cout << "Price of pizza4: " << pizza4.computePrice() << "\n";
+    printf ("Price of pizza4: %.2f\n", pizza4.computePrice());
     pizza5.outputDescription();
-    cout << "Price of pizza5: " << pizza5.computePrice() << "\n";
+    printf ("Price of pizza5: %.2f\n", pizza5.computePrice());
     pizza6.outputDescription();
-    cout << "Price of pizza6: " << pizza6.computePrice() << "\n";
+    printf ("Price of pizza6: %.2f\n", pizza6.computePrice());
     pizza7.outputDescription();
-    cout << "Price of pizza7: " << pizza7.computePrice() << "\n";
+    printf ("Price of pizza7: %.2f\n", pizza7.computePrice());
 }

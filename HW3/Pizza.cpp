@@ -95,7 +95,7 @@ double Pizza::computePrice()
     {
         price += 17.0;
     }
-    price += (2 * cheese) + (2 * pepperoni);
+    price += (2.0 * cheese) + (2.0 * pepperoni);
 
     return price;
 }
