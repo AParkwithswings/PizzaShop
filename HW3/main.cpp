@@ -13,17 +13,17 @@ int main()
     Pizza pizza7("small", "deep dish", 0, 0);
 
     pizza1.outputDescription();
-    printf ("Price of pizza1: %.2f\n", pizza1.computePrice());
+    printf ("Price of pizza1: $%.2f\n", pizza1.computePrice());
     pizza2.outputDescription();
-    printf ("Price of pizza2: %.2f\n", pizza2.computePrice());
+    printf ("Price of pizza2: $%.2f\n", pizza2.computePrice());
     pizza3.outputDescription();
-    printf ("Price of pizza3: %.2f\n", pizza3.computePrice());
+    printf ("Price of pizza3: $%.2f\n", pizza3.computePrice());
     pizza4.outputDescription();
-    printf ("Price of pizza4: %.2f\n", pizza4.computePrice());
+    printf ("Price of pizza4: $%.2f\n", pizza4.computePrice());
     pizza5.outputDescription();
-    printf ("Price of pizza5: %.2f\n", pizza5.computePrice());
+    printf ("Price of pizza5: $%.2f\n", pizza5.computePrice());
     pizza6.outputDescription();
-    printf ("Price of pizza6: %.2f\n", pizza6.computePrice());
+    printf ("Price of pizza6: $%.2f\n", pizza6.computePrice());
     pizza7.outputDescription();
-    printf ("Price of pizza7: %.2f\n", pizza7.computePrice());
+    printf ("Price of pizza7: $%.2f\n", pizza7.computePrice());
 }
