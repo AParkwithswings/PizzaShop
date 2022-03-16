@@ -23,7 +23,7 @@ int main()
     pizza5.outputDescription();
     cout << "Price of pizza5: " << pizza5.computePrice() << "\n";
     pizza6.outputDescription();
-    cout << "Price of pizza7: " << pizza6.computePrice() << "\n";
+    cout << "Price of pizza6: " << pizza6.computePrice() << "\n";
     pizza7.outputDescription();
-    cout << "Price of pizza8: " << pizza7.computePrice() << "\n";
+    cout << "Price of pizza7: " << pizza7.computePrice() << "\n";
 }
